@@ -13,20 +13,18 @@
 
 .pokedex-title {
   text-align: center;
-  color: #ffcb05; /* El amarillo clásico de Pokémon */
-  text-shadow: 2px 2px #3b4cca; /* El azul clásico */
+  color: #ffcb05; 
+  text-shadow: 2px 2px #3b4cca; 
   margin-bottom: 40px;
 }
 
-/* El tablero que contiene todas las cartas */
 .pokemon-grid {
   display: grid;
-  /* Esto crea columnas automáticas que miden mínimo 180px */
+  
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 20px;
 }
 
-/* Estilo de cada carta individual */
 .pokemon-card {
   background-color: #3d3d3d;
   border-radius: 15px;
@@ -36,14 +34,13 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Efecto al pasar el ratón */
 .pokemon-card:hover {
   transform: scale(1.05);
   border: 2px solid #ffcb05;
 }
 
 .pokemon-name {
-  text-transform: capitalize; /* Pone la primera letra en mayúscula */
+  text-transform: capitalize;
   margin-top: 10px;
   font-size: 1.1rem;
 }
